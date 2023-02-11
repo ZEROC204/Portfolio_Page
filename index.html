@@ -3,55 +3,46 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manu Emmanuel - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Manu Emmanuel's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <h1>Manu Emmanuel</h1>
-      <h2>Computer Science Student</h2>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <main>
-      <section id="about" class="section-bg">
-        <h3>About Me</h3>
-        <p>Hi, I'm Manu Emmanuel and I am a computer science student at SJCET. I have a passion for technology and am constantly learning new programming languages and technologies. In my free time, I enjoy playing video games and experimenting with new programming projects.</p>
-      </section>
-      <section id="projects" class="section-bg">
-        <h3>Projects</h3>
+    <header id="home">
+      <nav>
+        <h1>Manu Emmanuel</h1>
         <ul>
-          <li>
-            <h4>Project 1</h4>
-            <p>Description of project 1 goes here.</p>
-          </li>
-          <li>
-            <h4>Project 2</h4>
-            <p>Description of project 2 goes here.</p>
-          </li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </section>
-      <section id="contact" class="section-bg">
-        <h3>Contact</h3>
-        <form action="submit-form.php" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name"><br><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email"><br><br>
-          <label for="message">Message:</label>
-          <textarea id="message" name="message"></textarea><br><br>
-          <input type="submit" value="Submit">
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright &copy; 2023 Manu Emmanuel</p>
-    </footer>
+      </nav>
+      <div class="header-text">
+        <h1>Hi, I'm Manu Emmanuel</h1>
+        <p>A computer science student</p>
+      </div>
+    </header>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a computer science student with a passion for programming and developing new and innovative solutions. My experience includes developing projects using various programming languages such as Java, Python, and C++. I am always eager to learn new technologies and skills to improve my abilities and stay ahead of the curve.</p>
+    </section>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <ul>
+        <li>Project 1</li>
+        <li>Project 2</li>
+        <li>Project 3</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
