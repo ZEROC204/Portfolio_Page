@@ -125,3 +125,7 @@ form input, form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 20
+ 
+paragraph {
+  justify-content: cenetr;
+  }
