@@ -75,15 +75,15 @@ section {
 }
 
 #about {
-  background-image: url('https://wallpapercave.com/wp/wp6215524.jpg');
+  background-image: url('');
 }
 
 #projects {
-  background-image: url('https://images4.alphacoders.com/104/1043233.jpg');
+  background-image: url('');
 }
 
 #contact {
-  background-image: url('https://1.bp.blogspot.com/-sM4m9zprNqY/Xowy0sIRE0I/AAAAAAAAFJk/bQizn-d7vscU_UVEShNk-NoWqPvlAJizACLcBGAsYHQ/s1600/Anime%2BRoom%2BBackground%2B15.jpg');
+  background-image: url('');
 }
 
 h2 {
@@ -138,16 +138,6 @@ canvas {
   height: 100%;
 }
 
-header {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-}
-
-header h1 {
-  font-size: 2rem;
-  margin: 0.5em 0 0.2em;
-}
 
 a {
   font-size: 0.9rem;
