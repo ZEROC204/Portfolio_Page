@@ -75,15 +75,15 @@ section {
 }
 
 #about {
-  background-image: url('about-bg.jpg');
+  background-image: url('https://wallpapercave.com/wp/wp6215524.jpg');
 }
 
 #projects {
-  background-image: url('projects-bg.jpg');
+  background-image: url('https://images4.alphacoders.com/104/1043233.jpg');
 }
 
 #contact {
-  background-image: url('contact-bg.jpg');
+  background-image: url('https://1.bp.blogspot.com/-sM4m9zprNqY/Xowy0sIRE0I/AAAAAAAAFJk/bQizn-d7vscU_UVEShNk-NoWqPvlAJizACLcBGAsYHQ/s1600/Anime%2BRoom%2BBackground%2B15.jpg');
 }
 
 h2 {
@@ -122,9 +122,4 @@ form button[type="submit"] {
   cursor: pointer;
 }
 
-.bg-image {
-  background-image: url('https://wallpapercave.com/wp/wp6215524.jpg');
-  background-size: cover;
-  height: 100vh;
-}
 
