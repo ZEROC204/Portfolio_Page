@@ -122,4 +122,9 @@ form button[type="submit"] {
   cursor: pointer;
 }
 
+.bg-image {
+  background-image: url('https://wallpapercave.com/wp/wp6215524.jpg');
+  background-size: cover;
+  height: 100vh;
+}
 
